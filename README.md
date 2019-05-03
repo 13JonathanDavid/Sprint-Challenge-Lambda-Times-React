@@ -29,9 +29,14 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+Because programmers are stupid and can easily pass the wrong type of data causing the program to preform in unexpected was or crash.
 - [ ] Describe a life-cycle event in React?
+A lifecycle event is a event that happens at some point in a components life cycle for instance the willUpdate will be called before the render is recalled.
 - [ ] Explain the details of a Higher Order Component?
+function pointers..That is functions that are passed functions as paramaters and thus they can invoke the arguments.
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+you can use javascript directly..you can use css via class name, or you can use a third party library like style compomponents. A platform like style components can be useful in some situtions that require dynamic css like theming. However, css tends to be simpilar and easier to see inheritence.
 
 ## Project Setup
 
